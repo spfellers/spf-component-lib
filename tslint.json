@@ -4,6 +4,14 @@
   "rules": {
     "array-type": false,
     "arrow-parens": false,
+    "ban": [
+      true,
+      ["fit"],
+      ["fdescribe"],
+      ["xit"],
+      ["xdescribe"],
+      { "name": "Object.assign", "message": "Use the spread operator instead." }
+    ],
     "deprecation": {
       "severity": "warn"
     },
