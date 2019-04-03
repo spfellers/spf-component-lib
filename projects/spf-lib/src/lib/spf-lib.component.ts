@@ -6,7 +6,6 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./spf-lib.component.scss']
 })
 export class SpfLibComponent implements OnInit {
-  @Input() label: string;
   constructor() {}
 
   ngOnInit() {}
