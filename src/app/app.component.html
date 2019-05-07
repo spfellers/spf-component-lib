@@ -1,7 +1,28 @@
-<div class="examples">
-  <h3>SPF Component Library</h3>
-  <div class="button">
-    <label> SPF-BUTTON: </label>
-    <spf-button (click)="onClick()">Test</spf-button>
-  </div>
+<svg viewBox="0 0 2400 1200" fill="url(#gr-simple)">
+  <defs>
+    <linearGradient id="gr-simple" x1="0" y1="0" x2="100%" y2="100%">
+      <stop stop-color="hsl(50, 100%, 70%)" offset="10%"/>
+      <stop stop-color="hsl(320, 100%, 50%)" offset="90%"/>
+    </linearGradient>
+  </defs>
+  <text text-anchor="middle" x="50%" y="50%" dy=".35em">
+    SPF Component Library
+  </text>
+</svg>  
+
+<div class="outer-container">
+  <span>Button</span>
+  <div class="divider"></div>
+  <div class="box-container">
+    <div class="box">
+        <spf-button (click)="onClick()">Test</spf-button>
+    </div>
+    <div class="box">
+        <spf-button (click)="onClick()">Test</spf-button>
+    </div>
+    <div class="box">
+        <spf-button (click)="onClick()">Test</spf-button>
+    </div>
+  </div>  
 </div>
+

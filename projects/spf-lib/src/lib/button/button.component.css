@@ -1,4 +1,4 @@
-a.spf-button {
+span.spf-button {
   display: inline-block;
   padding: 0.7em 1.7em;
   border-radius: 0.2em;
@@ -11,7 +11,7 @@ a.spf-button {
   transition: all 0.2s;
   color: rgb(39, 39, 39);
 }
-a.spf-button:hover {
+span.spf-button:hover {
   background-color: rgb(184, 184, 184);
   opacity: 40%;
   cursor: pointer;
